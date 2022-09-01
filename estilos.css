@@ -1,0 +1,21 @@
+body{
+    background-color: #40CFFF;
+}
+
+#cara #izq{
+    position:top;
+    height: 400px;
+    background-color: azure;
+    background-image: url("f1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#cara #dere {
+    font-size:200%;
+
+    text-align: left;
+
+
+}
