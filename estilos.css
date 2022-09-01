@@ -1,0 +1,56 @@
+body{
+    background-color: #808080;
+    width: 700px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+#titulo_fino_qlq {
+    font-size: 300%;
+    position: Center;
+    color:lime;
+    text-align: center;
+    background-position: left;
+}
+
+
+#linea_pa_separar{
+
+color: black;
+background-color: black;
+border: 0px solid;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+#caja {
+    width: 250px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    margin-left:1%;
+    text-align: center;
+    font-size:140%;
+
+}
+
+#cara #izq{
+    position:top;
+    height: 400px;
+    background-color: azure;
+    background-image: url("f1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#cara #dere {
+    font-size:200%;
+
+    text-align: left;
+
+
+}
