@@ -1,0 +1,100 @@
+body{
+        background-color: red;
+        background: none;
+        margin:0;
+    padding:0;
+    border:none;
+}
+
+
+
+
+#menu{
+        
+        background-color:black;
+        color: white;
+
+        height: 40px;
+        padding:0;
+        border:none;
+        margin: 0;
+}
+#izquierda{
+
+        height: 1000px;
+        background-color:#BDD2EF;
+        float:left;
+        width:70%;
+}
+#derecha{
+        height: 1000px;
+        background-color:#DAF7E2;
+        float:right;
+        width: 30%;
+}
+
+#cajacentral {
+        text-align: center;
+}
+#pie{
+        height:40px;
+        background-color:black;
+        clear:both;
+}
+
+@font-face {
+        font-family:'Bungee_Shade';
+        src: url("BungeeShade-Regular.ttf");
+
+}
+
+#cabecera{
+        padding:0;
+        border:none;
+        margin-bottom: 70px;
+        height: auto;
+        width: 100%;
+        
+        
+}
+#foto{
+        float: right;
+        padding:0;
+        border:none;
+        margin: 0;
+        height: 500px;
+        width: calc(60vw);
+}
+
+#texto {
+        
+        font-family: Bungee_Shade;
+        font-size: 4vw;
+        padding-left: 7%;
+
+        
+
+        padding-bottom: 4vw;
+        
+        float: left;
+        text-align: center;
+        
+}
+
+#txtlinks{
+        padding-top: 6px;
+        padding-left: 5%;
+        font-family: sans-serif;
+        font-size: 30px;
+}
+
+#txt{
+        padding: 10% 10% 10% 10%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vw;
+        text-align: center;
+        float: left;
+
+}
+
+
