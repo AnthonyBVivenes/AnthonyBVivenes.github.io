@@ -108,20 +108,21 @@ body {
 
 
   /* referencias y utilidades*/
-
-
+  .container-cajita {
+    display: flex;
+    justify-content: center;
+  }
 
 
   .cajita {
-    width: 90%; /* Anchura del cuadrado igual a la del contenedor */
+    align-self: center;
+    width:  85%; /* Anchura del cuadrado igual a la del contenedor */
     max-width: 90%;
     background-color: #f2f2f2;
     border: 1px solid #ddd;
     border-radius: 15px; /* Más redondez */
     padding: 30px; /* Más espacio interno */
-    margin-right: 2%;
-    margin-left: 2%;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Sombra más intensa */
+    box-shadow: 0 6px 12px #00000033; /* Sombra más intensa */
   }
 
 
