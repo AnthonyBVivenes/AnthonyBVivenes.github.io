@@ -1,0 +1,727 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #000000;
+    height: 150px;
+    max-height: 100px;
+}
+
+.header-linea1 {
+    background-color: #1696ba;
+    height: 30px;
+    width: 100%;
+    padding-top: 8px;
+}
+
+
+.header-linea1-redes {
+    background-color: #000000;
+    height: 30px;
+    width: auto;
+    min-width: 15%;
+    max-width: 25%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-linea1-redes::after {
+    /*transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);*/
+
+    border-radius: 0;
+
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -40px;
+    width: 0;
+    height: 0;
+    border-bottom: calc(30px) solid #000000;
+    border-left: 40px solid transparent;
+    transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+}
+
+
+
+.CONTAINER-header-linea1-redes {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+ul li {
+    height: calc(100% - 8px);
+    width: 40px;
+    margin: 0;
+    padding: 0;
+
+
+    position: relative;
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-image: url("resources/icon/icon-insta-blanco.png");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: 20px;
+}
+
+
+ul li a {
+    padding: 0;
+    display: block;
+    /* Asegúrate de que el enlace ocupe todo el espacio del li */
+    height: 100%;
+    /* Para que el enlace cubra todo el li */
+    color: white;
+    /* Cambia el color según tu diseño */
+    text-decoration: none;
+    /* Eliminar subrayado */
+}
+
+
+header .header-linea1 .header-linea1-title {
+    max-height: 30px;
+    margin: 0;
+    padding: 0;
+    font-size: 120%;
+    position: absolute;
+    text-align: left;
+    color: white;
+}
+
+header .header-linea1 .header-linea1-title-img {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+}
+
+header .header-linea1 .header-linea1-title {
+    color: rgb(255, 255, 255);
+    display: flex;
+    /* Habilita flexbox */
+    justify-content: center;
+    /* Centra el texto horizontalmente */
+    align-items: center;
+}
+
+
+
+.header-linea2 {
+    background-color: #000000;
+    height: calc(100px - 30px - 8px);
+    width: 100%;
+    padding: 0;
+    margin: 0%;
+    display: flex;
+    position: relative;
+}
+
+header .header-linea2 .header-linea2-title-img {
+    margin: 0;
+    margin-left: 5px;
+
+    padding: 0;
+    height: 60px;
+    width: 66px;
+}
+
+header .header-linea2 .header-linea2-buttoms {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 100%;
+}
+
+header .header-linea2 .header-linea2-buttoms .header-linea2-buttom-item {
+    height: 100%;
+    margin: 0;
+    padding: 0px 5px 0px 5px;
+    border-radius: 0%;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 0px;
+    font-size: calc(100px - 30px - 8px - 45px);
+    /* Establece un borde sólido de 1px de ancho y color #ccc */
+    border-radius: 0px;
+    /* Establece un radio de 5px para el borde */
+}
+
+header .header-linea2 .header-linea2-buttoms .header-linea2-buttom-item:hover {
+    color: rgb(168, 168, 168);
+    background-color: rgb(0, 0, 0);
+    box-shadow: inset 0px -7px 0px #1696ba,
+        inset 0px 0px 0px #ffffff;
+}
+
+
+main .main-inicio {
+    background-color: #1696ba;
+    height: 60ch;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    background-image: url("resources/img/caratula-main2.webp"), url("resources/img/caratula-main.webp");
+    background-position: 0 bottom, bottom;
+    /* Center the image */
+    background-repeat: no-repeat, no-repeat;
+    background-size: 30vw;
+}
+
+main .main-inicio {
+    background-color: #1696ba;
+    height: 60ch;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url("resources/img/caratula-main1.png");
+    background-position: bottom;
+    /* Center the image */
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 100%;
+
+    display: flex;
+    /* Establece el contenedor como un contenedor flex */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+    padding-top: 10px;
+}
+
+
+main .main-inicio .main-inicio-center {
+    width: 95%;
+    height: 70%;
+    background-color: transparent;
+    margin: 0;
+
+    padding: 0;
+    display: flex;
+}
+
+main .main-inicio .main-inicio-center .main-inicio-center-bloque1 {
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    margin: 0;
+    position: relative;
+
+    display: flex;
+    /* Establece el contenedor como un contenedor flex */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+
+    padding: 0;
+}
+
+
+main .main-inicio .main-inicio-center .main-inicio-center-bloque1 .bloque1-container-msg {
+    height: 90%;
+    width: 90%;
+    background-color: rgba(71, 71, 71, 0.384);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Establece el contenedor como un contenedor flex */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+}
+
+main .main-inicio .main-inicio-center .main-inicio-center-bloque1 .bloque1-container-msg .bloque1-msg {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 85%;
+    width: 90%;
+    word-break: break-all;
+}
+
+.bloque1-msg .bloque1-msq-title {
+    font-size: 3vw;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    margin-bottom: 1vw;
+    text-shadow: 2px 2px 2px black;
+
+
+
+
+
+    overflow: hidden;
+    /* oculta el texto excedente */
+    text-overflow: ellipsis;
+    /* agrega unipsis (...) cuando el texto es demasiado largo */
+
+
+    word-break: break-word;
+    /* permite que el texto se rompa en palabras completas */
+}
+
+.bloque1-msg .bloque1-msq-title-pequenno {
+    font-size: 1.5vw;
+    margin: 0;
+    margin-left: 2%;
+    padding: 0;
+    color: #ffffff;
+}
+
+main .main-inicio .main-inicio-center .main-inicio-center-bloque1 .bloque1-container-title {
+
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: auto;
+    background-color: #0b4b5d;
+    color: white;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+
+
+
+
+
+main .main-inicio .main-inicio-center .main-inicio-center-bloque2 {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(0, 255, 0);
+    margin: 0;
+}
+
+main .main-inicio .main-inicio-center .main-inicio-center-bloque2 img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("resources/img/Metor-metanol-de-oriente-Complejo-Jose.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+}
+
+
+main {
+    height: auto;
+    width: 100%;
+}
+
+.main-noticas-principales {
+    width: 100%;
+    background-color: #1696ba;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Establece el contenedor como un contenedor flex */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+}
+
+.main-noticas-principales .main-noticas-principales-item {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    height: 100%;
+    min-width: 33.33%;
+    margin: 0;
+    display: flex;
+    /* Establece el contenedor como un contenedor flex */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+}
+
+.main-noticas-principales-item .noticias-item-container {
+    background-color: rgba(105, 105, 105, 0.1);
+    color: #ffffff;
+    height: 75%;
+    width: 90%;
+    margin: 0;
+    display: flex;
+    /* Establece el contenedor como un contenedor flex */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+}
+
+.main-noticas-principales-item .noticias-item-container .noticias-item-img {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 40%;
+    background-color: #0b4b5d;
+    background-image: url("resources/img/Metor-metanol-de-oriente-Complejo-Jose.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main-noticas-principales-item .noticias-item-container .noticias-item-info {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 60%;
+
+
+}
+
+.noticias-item-container .noticias-item-info h3 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+
+    white-space: nowrap;
+}
+
+.noticias-item-container .noticias-item-info p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+
+    text-overflow: ellipsis;
+    /* agrega unipsis (...) cuando el texto es demasiado largo */
+    overflow: hidden;
+    /* oculta el texto excedente */
+
+    overflow: hidden;
+    /* oculta el texto excedente */
+    text-overflow: ellipsis;
+    /* agrega unipsis (...) cuando el texto es demasiado largo */
+    display: -webkit-box;
+    /* habilita el truncado de texto en múltiples líneas */
+    -webkit-line-clamp: 2;
+    /* establece el número de líneas máximas */
+    -webkit-box-orient: vertical;
+    /* establece la orientación del texto */
+
+}
+
+
+
+main .main-desarrollo {
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+    padding-top: 5vw;
+    display: flex;
+    padding-bottom: 5vw;
+}
+
+main .main-desarrollo .main-desarrollo-zonalectura {
+    margin: 0;
+    padding: 0%;
+
+    width: 65%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-desarrollo-zonalectura .main-desarrollo-zonalectura-contenido {
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    min-width: 90%;
+    height: auto;
+}
+
+.main-desarrollo-zonalectura-contenido .zonalectura-contenido-membrete {
+    width: 100%;
+    height: 40px;
+
+    position: relative;
+}
+
+.main-desarrollo-zonalectura-contenido .zonalectura-contenido-membrete-br {
+    width: 100%;
+    height: 4px;
+    background-color: #11718b;
+}
+
+.main-desarrollo-zonalectura-contenido .zonalectura-contenido-membrete-pestannita {
+    background-color: #11718b;
+    height: 100%;
+    width: auto;
+    min-width: 15%;
+    max-width: 25%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 150%;
+
+}
+
+.main-desarrollo-zonalectura-contenido .zonalectura-contenido-membrete-pestannita::after {
+
+    border-radius: 0;
+
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -55px;
+    width: 0;
+    height: 0;
+    border-bottom: 40px solid #11718b;
+    border-left: 55px solid transparent;
+    transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+
+
+
+.main-desarrollo-zonalectura-contenido .zonalectura-contenido-articulo {
+    width: 100%;
+    min-height: 150px;
+    background-color: #691414;
+    padding-bottom: 2px;
+    display: flex;
+}
+
+.zonalectura-contenido-articulo .zonalectura-contenido-articulo-img {
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    min-height: 150px;
+    background-color: #ffffff;
+    width: 40%;
+}
+
+.zonalectura-contenido-articulo .zonalectura-contenido-articulo-img img {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+    background-image: url("resources/img/caratula-main4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px solid violet;
+}
+
+.zonalectura-contenido-articulo .zonalectura-contenido-articulo-txt {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 150px;
+    background-color: #ffffff;
+    width: 60%;
+}
+
+.zonalectura-contenido-articulo-txt h4 {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 2vw;
+}
+
+.zonalectura-contenido-articulo-txt p {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 1.5vw;
+
+    text-overflow: ellipsis;
+    /* agrega unipsis (...) cuando el texto es demasiado largo */
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+
+
+
+
+
+
+
+main .main-desarrollo .main-desarrollo-indice {
+    margin: 0;
+    padding: 0%;
+    min-height: 100px;
+    width: 35%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main-desarrollo-indice .main-desarrollo-indice-contenido {
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    min-width: 90%;
+    height: auto;
+}
+
+
+.main-desarrollo-indice-contenido .indice-contenido-membrete {
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.main-desarrollo-indice-contenido .indice-contenido-membrete-br {
+    width: 100%;
+    height: 4px;
+    background-color: #11718b;
+}
+
+.main-desarrollo-indice-contenido .indice-contenido-membrete-pestannita {
+    background-color: #11718b;
+    height: 100%;
+    width: auto;
+    min-width: 15%;
+    max-width: 25%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 150%;
+
+}
+
+.main-desarrollo-indice-contenido .indice-contenido-membrete-pestannita::after {
+
+    border-radius: 0;
+
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -55px;
+    width: 0;
+    height: 0;
+    border-bottom: 40px solid #11718b;
+    border-left: 55px solid transparent;
+    transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.main-desarrollo-indice-contenido .indice-contenido-tabla {
+    width: 100%;
+    min-height: 100px;
+    background-color: #ffffff;
+    box-shadow: inset 0 -1px 0 1px #11718b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ZONA DEL FOOTER */
+
+
+footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: #000000;
+    padding: 0;
+}
+
+footer .pie-enlaces {
+    width: 100%;
+    min-height: 10px;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 0;
+    
+}
+
+footer .pie-enlaces .pie-enlaces-enlace {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    
+}
+footer .pie-enlaces .pie-enlaces-enlace h6 {
+    
+    color: #ffffff;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+}
+
+/*                 */
+/* ZONA DEL FOOTER */
+
+
+
+
+
+
+
+
+/* clases de ejemplos*/
+.elemento {
+    background-image: url('imagen1.jpg'), url('imagen2.jpg'), url('imagen3.jpg');
+    background-position: 0 0, 100px 0, 200px 0;
+    /* Posiciona cada imagen en una posición diferente */
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    /* No repite cada imagen */
+}
