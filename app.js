@@ -34,6 +34,8 @@ btn1.addEventListener("click", function(){
 setInterval(() => {
     const width = window.innerWidth;
     const height = window.innerHeight;
-    //alert(`Resolución de la ventana: ${width}x${height}`);
-}, 10000); // 10000 milisegundos = 10 segundos
+    alert(`Resolución de la ventana: ${width}x${height}`);
+}, 5000); // 10000 milisegundos = 10 segundos
 
+
+alert("dddd")

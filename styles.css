@@ -512,6 +512,15 @@ main{
     header svg {
         width: auto;
     }
+    header h1 {
+        color: #6f2205;
+        text-align: center;
+        font-size: clamp(4rem, 8vw, 6rem); /* Tamaño mínimo: 2rem, preferido: 10% del ancho de la pantalla, máximo: 8rem */
+        font-family: 'Times New Roman', Times, serif;
+        padding: 0px;
+        margin: 15vh 0px 15vh 0px;
+        
+    }
 }
 
 
