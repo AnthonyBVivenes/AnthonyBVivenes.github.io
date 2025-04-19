@@ -7,7 +7,9 @@
 
 /*####################*/
 
-
+.no-visible {
+    display: none;
+}
 
 
 
@@ -475,7 +477,7 @@ main{
 
 
 /* Media query para pantallas pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 360px) {
 
     :root {
         --margin-main: 5%;
@@ -484,10 +486,16 @@ main{
     .infofast {
         flex: 0 0 42%; 
         flex-wrap: wrap; /* Permite que los cuadros se envuelvan */
+        margin: 0;
+        background-color: #0f9e7f;
     }
     .infofast > div {
         flex: 1 1 90%; /* Cada cuadro ocupa el 100% del ancho en pantallas pequeñas */
         
+    }
+    header .infofast {
+        margin-left: 0;  /* Elimina el margen izquierdo */
+        margin-right: 0; /* Elimina el margen derecho */
     }
 
 
@@ -577,6 +585,23 @@ main{
     margin: 2rem var(--margin-main) 1rem var(--margin-main) ;
 }
 
+
+.container-seccion p.subrayado{
+    background-color:  #d4e3f0;
+    
+}
+
+
+.container-seccion ul{
+    
+    font-family: 'Reckless Neue';
+    font-weight:600;
+    font-style:normal;
+    color: black;
+    font-size: 1.5rem;       /* Buen tamaño para destacar */
+    padding: 0%;
+    margin: 2rem var(--margin-main) 1rem var(--margin-main) ;
+}
 
 
 
