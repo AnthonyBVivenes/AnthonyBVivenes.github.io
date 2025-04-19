@@ -238,7 +238,7 @@ contraste
 
 header nav {
     background-color:#d4e3f0;
-    padding: 10px;
+    padding: 10px 0 10px 0;
     display: flex;
     flex-direction: row;
     /*justify-content: space-between;  Distribuye elementos a ambos lados */
@@ -515,15 +515,8 @@ main{
         width: 100%;
         height: auto;
     }
-
-    #note1 img {
-        height: 30vh;
-    }
-    
-    #note2  {
-        height: 30vh;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+    .infofast {
+        height: 40vh;
     }
 }
 
