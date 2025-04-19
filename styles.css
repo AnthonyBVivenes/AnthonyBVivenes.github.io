@@ -246,8 +246,9 @@ header nav {
 
     border-bottom: 2px solid gray;
     margin: 0px 0px 0px 0px;
-
-
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav a {
@@ -514,7 +515,18 @@ main{
         width: 100%;
         height: auto;
     }
+
+    #note1 img {
+        height: 30vh;
+    }
+    
+    #note2  {
+        height: 30vh;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
 }
+
 
 @media (max-width: 600px) {
     header svg {
