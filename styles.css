@@ -349,6 +349,7 @@ main{
 #container-proyectos article .contenedor-imagen {
     width: calc(100% - 4rem);
     margin: 0rem 2rem 0rem 2rem;
+    display: flex;
 }
 
 #container-proyectos article .contenedor-imagen img{
