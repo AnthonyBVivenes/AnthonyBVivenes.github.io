@@ -1,0 +1,143 @@
+
+:root{
+    --paddig-top-all: 50px;
+
+    --background-color: #2e3440;
+    --background-color-2: #3b4252;
+    --background-color-3: #434c5e;
+    --background-color-4: #4c566a;
+
+
+    --color-title:#eceff4;
+    --color-subtitle: #e5e9f0;
+    --color-text: #d8dee9;
+
+    --height-header: 4rem;
+
+    --wight-header-btn: 2rem; 
+}
+
+
+html{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--background-color);
+    font-family: 'Intel One Mono', monospace;
+}
+
+header{
+    max-height: var(--height-header);
+    height: var(--height-header);
+
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 1rem;
+    margin: 0;
+
+    gap: 0.5rem;
+
+    box-sizing: border-box;
+}
+
+.home {
+    text-decoration: none;
+    flex-shrink: 0;
+    height: 100%;
+    /*background-color: rgb(37, 37, 37);*//
+    font-size: medium;
+    color: var(--color-subtitle);
+    display: flex;
+    align-items: center;
+}
+
+.home span {
+    color: var(--color-subtitle);
+}
+
+.home img{
+    height: 70%;
+    width: auto;
+}
+
+
+
+header .btn{
+    min-width: var(--wight-header-btn);
+    height:100%;
+    max-height: var(--wight-header-btn);
+    background-color: transparent;
+    
+    flex-shrink: 0;
+}
+
+header .btn.btn-search {
+    
+    border: none;
+    cursor: pointer;
+    
+}
+
+header input{
+    flex-grow: 1;
+    width: var(--wight-header-btn);
+    min-width: 0;
+    border: 10px;
+    background-color:var(--background-color);
+    border: 3px solid var(--background-color-4);
+    border-radius: 30px;
+    visibility: hidden;
+}
+
+#btn-search-header {
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url(/assests/search.svg);
+    background-size: contain;
+    filter: invert(100%) brightness(200%);
+}
+
+#btn-theme {
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url(/assests/theme.svg);
+    background-size: contain;
+    filter: invert(100%) brightness(200%);
+}
+
+#btn-open-menu{
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url(/assests/menu.svg);
+    background-size: contain;
+    filter: invert(100%) brightness(200%);
+}
+
+main{
+    padding: var(--height-header) 0 0 0;
+    margin: 0px;
+}
+
+p{
+    padding: 0px;
+    margin: 9px;
+    color: var(--color-text);
+}
+
+footer{
+    width: auto;
+    min-height: 20px;
+    background-color: black;
+}
