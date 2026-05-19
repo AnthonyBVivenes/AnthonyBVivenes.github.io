@@ -292,3 +292,18 @@ footer .container nav ul {
 footer .container nav ul li a{
     color: var(--background-color-5);
 }
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
